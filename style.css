@@ -60,3 +60,39 @@ input[type=number]{
     height: 250px;
     border-radius: 10px;
 }
+
+/* 
+---------------------------------------
+          Area Calc 
+---------------------------------------
+*/
+
+
+
+/* Area Calc Result*/
+#result{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+
+    padding: 5px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#display, #displayCount{
+    height: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#displayCount{
+    width: 35%;
+    /* background-color: blueviolet; */
+}
+
+#display{
+    width: 65%;
+    text-align: end;    
+}
