@@ -29,3 +29,34 @@ input::-webkit-inner-spin-button {
 input[type=number]{
     -moz-appearance: textfield;
 }
+
+/* 
+---------------------------------------
+          Areas
+---------------------------------------
+*/
+#principal,#historicOutputs{
+    width: 80%;
+    display: flex;
+
+    justify-content: center; 
+    text-align: center;
+
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 10px;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#principal,#historicOutputs{
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+#historicOutputs{
+    color: white;
+    font-weight: 900;
+    height: 250px;
+    border-radius: 10px;
+}
