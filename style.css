@@ -131,3 +131,20 @@ input#eraser{
 #operations :nth-child(6){
     order: 1;
 } 
+
+/* Area Calc Lines*/
+
+#line1,#line2,#line3,#line4{
+    width: 100%;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Area Lines > Inputs */
+
+#calc input{
+    width: 22%;
+    height: 44px;    
+}
