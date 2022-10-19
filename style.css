@@ -148,3 +148,22 @@ input#eraser{
     width: 22%;
     height: 44px;    
 }
+
+/* 
+---------------------------------------
+            Area Resultados 
+---------------------------------------
+*/
+
+textarea{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px auto 15px auto;
+    width: 90%;
+    height: 200px;
+    font-size: large;
+}
+
+textarea:disabled{
+    background-color: white;
+}
