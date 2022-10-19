@@ -19,5 +19,21 @@ window.onload = () =>{
         ["x2","x2"], ["%","percentual"], ["xX", "xX"]
     ];
 
-        
+    for(let i=0; i < 10;i++){
+        document.getElementById(i).addEventListener("click",()=>{
+            incrementoString(i)
+        })
+    }
+    
+    operations_id.forEach(operation => {
+        let element = document.getElementById(operation[1]);
+        element.addEventListener("click",()=>{
+            if(operation[0] == "."){
+                incrementoString(operation[0]);
+            }
+            else{
+                operations(operation[0]);
+            }
+        })
+    });   
 }
